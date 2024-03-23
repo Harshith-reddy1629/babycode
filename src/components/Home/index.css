@@ -1,0 +1,129 @@
+.home {
+  flex-grow: 1;
+}
+
+.progress-heading {
+  all: unset;
+  font-size: 18px;
+}
+
+.home-body {
+  padding: 1rem 2rem;
+}
+.wow-span {
+  color: #0fbdd8;
+}
+
+.graph-container {
+  background-color: #fff;
+  padding: 1rem 12px;
+  margin-top: 10px;
+  width: 70%;
+  flex-grow: 1;
+}
+
+.graph-text {
+  background-color: #fef9e5;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.share-promo {
+  background: url("../../assets/child.png");
+  background-size: 100% 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 1rem;
+  align-items: center;
+  color: #fff;
+  /* width: 30%;
+  min-width: 200px; */
+  aspect-ratio: 1/1;
+  text-align: center;
+}
+
+.share-btn {
+  all: unset;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  padding: 6px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 30px;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  padding-block: 12px;
+  width: 70%;
+}
+
+.feature-card {
+  text-align: center;
+}
+
+.feature-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.feature-text {
+}
+
+.guide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px 16px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #00000015;
+}
+.mock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  background-color: #fff;
+  padding: 18px 16px;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px #00000015;
+  margin-top: 18px;
+  text-align: center;
+}
+.guide-container img {
+  height: 24px;
+}
+
+.guide-container p {
+  font-size: 13px;
+  color: #706f6f;
+}
+
+.start-btn {
+  all: unset;
+  color: #fff;
+  background-color: #135ade;
+  font-size: 14px;
+  padding: 6px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 30px;
+  text-align: center;
+}
+.main-head {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

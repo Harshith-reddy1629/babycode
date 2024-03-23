@@ -1,0 +1,9 @@
+.discount-bar {
+  background-color: #f6ddc9;
+  position: sticky;
+  top: 0;
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+  color: #e16d31;
+}

@@ -1,0 +1,51 @@
+.premium-card {
+  background-color: #e6efff;
+  border-radius: 20px;
+  padding: 16px;
+}
+.premium-heading {
+  all: unset;
+  color: #245ce5;
+  font-size: 20px;
+  font-weight: 500;
+}
+.premium-ul {
+  list-style-type: none;
+
+  padding-block: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.premium-ul li {
+  font-size: 13px;
+  color: #7e7f83;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  font-size: 12px;
+}
+.price-btn {
+  /* all: unset; */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  right: -16px;
+
+  border: none;
+  padding: 7px 12px;
+  box-shadow: -1px 3px 3px #7e7f83;
+  color: #fff;
+  border-radius: 99px 0 0 99px;
+
+  background-color: #135ade;
+}
