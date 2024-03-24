@@ -45,3 +45,42 @@
   width: 100%;
   padding: 8px auto;
 }
+@media (max-width: 768px) {
+  .sidebar {
+    all: unset;
+    height: 0px;
+
+    width: 0;
+    overflow: hidden;
+  }
+  .sidebar-u-list {
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    background-color: #0b49bc;
+    z-index: 12;
+    padding-block: 8px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-around;
+    left: 0;
+    right: 0;
+    gap: 4px;
+
+    padding-inline: 12px;
+  }
+
+  .sidebar-u-list li {
+    color: #fff;
+    padding: 10px 6px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+  }
+  .sidebar-u-list li:nth-child(1) {
+    background-color: #ffffff30;
+  }
+}

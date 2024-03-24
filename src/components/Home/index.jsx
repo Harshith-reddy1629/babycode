@@ -14,14 +14,7 @@ function Home() {
       <div className="home-body">
         <div>
           <h1 className="progress-heading">Your Progress Summary</h1>
-          <div
-            className=""
-            style={{
-              display: "gird",
-              gap: "18px",
-              gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))",
-            }}
-          >
+          <div className="main-head">
             <div className="graph-container">
               <p className="graph-text">
                 <span className="wow-span">Wow!</span> you're about to reach
@@ -40,7 +33,7 @@ function Home() {
         </div>
         <div style={{ marginTop: "14px" }}>
           <h1 className="progress-heading">Prepare with ease</h1>
-          <div className="" style={{ display: "flex", gap: "18px" }}>
+          <div className="main-head" style={{ display: "flex", gap: "18px" }}>
             <div className="features-container">
               <div className="feature-card">
                 <img className="feature-image" src={f1} alt="." />
@@ -75,7 +68,7 @@ function Home() {
                 <p className="feature-text">Reading</p>
               </div>
             </div>
-            <div className="" style={{ flexGrow: 1 }}>
+            <div className="" style={{ flexGrow: 1, width: "30%" }}>
               <div className="guide-container">
                 <img src={yt} alt="." />
                 <p>App Guide Video</p>

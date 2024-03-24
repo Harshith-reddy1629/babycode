@@ -7,3 +7,9 @@
   text-align: center;
   color: #e16d31;
 }
+
+@media (max-width: 768px) {
+  .discount-bar {
+    display: none;
+  }
+}

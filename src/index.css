@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #f7f7f7;
+  width: 100vw;
+  overflow: auto;
 }
 
 * {
@@ -14,7 +16,8 @@
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -27,4 +30,11 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+.hide-laptop {
 }

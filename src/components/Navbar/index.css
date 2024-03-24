@@ -3,5 +3,61 @@
   width: 100%;
   padding: 2px 24px;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.nav-mob-el {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-mob-el {
+    display: block;
+  }
+  .nav-bar {
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#1359dc, #013495);
+    padding-block: 10px;
+  }
+  .insta-icon {
+    padding: 6px;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    border-radius: 99px;
+    color: #ffffff;
+  }
+  .course-group {
+    width: 100%;
+  }
+  .btn-group {
+    background-color: #ffffff30;
+    width: fit-content;
+    margin-inline: auto;
+    display: flex;
+    gap: 5px;
+    padding: 6px;
+    border-radius: 99px;
+  }
+  .course-btn {
+    all: unset;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 99px;
+    font-size: 14px;
+  }
+  .course-btn:nth-child(1) {
+    background-color: #fff;
+    color: #1359dc;
+    font-weight: 700;
+  }
 }
